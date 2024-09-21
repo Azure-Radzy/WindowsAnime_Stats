@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/kota.png" type="image/.png">
+    <title>Kisah Eldoria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(img/bg.png);
+            text-align: center;
+            padding: 50px;
+            position: relative; /* Tambahkan ini untuk positioning */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 1.6;
+            color: rgb(198, 190, 190);
+        }
+        h1 {
+            color: black; /* Atur warna h1 jika perlu */
+        }
+        .text-info {
+            color: rgb(148, 195, 237); /* Warna untuk teks "Eldoria" */
+        }
+        
+
+        .border {
+            position: absolute;
+            bottom: 10px; 
+            right: 10px; /* Posisikan di kanan */
+            width: 100px; /* Atur lebar border */
+            height: auto; /* Tinggi otomatis agar sesuai */
+        }
+        .border-left {
+                position: absolute;
+                bottom: 10px; 
+                left: 10px; /* Posisikan di kiri */
+                width: 100px; /* Atur lebar border */
+                height: auto; /* Tinggi otomatis agar sesuai */
+                transform: scaleX(-1);;
+                 
+            }
+            .borderup{
+                position: absolute;
+                top: 10px; 
+                right: 1px; /* Posisikan di kiri */
+                width: 100px; /* Atur lebar border */
+                height: auto; /* Tinggi otomatis agar sesuai */
+                transform: scaleX(-1);; 
+                transform: scaleY(-1);
+            }
+            .border-leftup{
+                position: absolute;
+                top: 10px; 
+                left: 1px; /* Posisikan di kiri */
+                width: 100px; /* Atur lebar border */
+                height: auto; /* Tinggi otomatis agar sesuai */
+                transform: scaleX(-1); 
+                transform: scale(-1);
+            }
+    </style>
+</head>
+<body>
+    <script>
+        sessionStorage.setItem('visitedKisah', 'true');
+    </script>
+
+    <img src="img/border.png" alt="Border" class="border">
+    <img src="img/border.png" alt="Border" class="border-left">
+    <img src="img/border.png" alt="Border" class="border-leftup">
+    <img src="img/border.png" alt="Border" class="borderup">
+    
+    <h1 class="fw-bold text-light fs-3">Selamat Datang di Negeri <span class="fw-bold text-info">ELDORIA</span></h1>
+
+    <p>Di balik awan biru yang cerah, terdapat sebuah negeri bernama Eldoria. Negeri ini terkenal akan keindahan alamnya yang menakjubkan, mulai dari hutan lebat yang dipenuhi dengan flora dan fauna unik hingga pegunungan megah yang menjulang tinggi ke langit.</p>
+    
+    <p>Eldoria bukan hanya sekadar tempat yang indah; ia adalah pusat sihir yang telah ada sejak zaman purba. Sungai-sungai yang mengalir jernih memancarkan energi magis, memberikan kehidupan kepada tanah yang subur. Di tengah-tengah negeri ini, terdapat sebuah kastil megah tempat para penyihir dan pemimpin berkumpul untuk merencanakan masa depan Eldoria.</p>
+    
+    <p>Namun, saat ini Eldoria sedang menghadapi ancaman yang serius. Kekacauan mulai merasuki tanah yang dulunya damai ini. Sejak beberapa bulan lalu, sebuah kabut gelap menyelimuti daerah tertentu, membawa serta makhluk-makhluk kegelapan yang merusak ketenangan penduduk. Petani kehilangan hasil panen, dan makhluk-makhluk magis yang sebelumnya bersahabat mulai menunjukkan tanda-tanda agresi.</p>
+    
+    <p>Di sisi lain, kekuatan sihir di Eldoria mulai memudar. Para penyihir terpaksa berusaha mengumpulkan kembali energi yang hilang untuk melawan ancaman ini. Namun, keraguan dan ketidakpastian menyelimuti hati mereka, sementara ancaman semakin mendekat.</p>
+    
+    <p>Apakah Eldoria akan mampu bangkit dari ancaman ini? Ataukah negeri yang penuh dengan keajaiban ini akan terperosok ke dalam kegelapan selamanya? Hanya waktu yang dapat menjawab semua pertanyaan ini.</p>
+    
+    <button onclick= location.href="isekai.html">Lanjut</button>
+</body>
+</html>
